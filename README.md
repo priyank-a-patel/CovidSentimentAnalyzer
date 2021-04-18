@@ -1,0 +1,8 @@
+# Sentiment Analysis of Coronavirus Tweets
+
+Leveraging machine learning models to predict sentiment of social media posts, specifically twitter. The models were specifically designed to predict sentiment for COVID related tweets, allowing entities to better understand public reception on current events/developments (ie. new guidelines, lockdowns, policing regulations, etc.). 
+
+The long-term goal is to create models that allow governing bodies to understand public opinion easily. With social media such as twitter becoming ubiquitous, we can rely on posts to accurately reflect an individuals opionion on a topic; we can then aggregrate these opinions by location and keyword to better understand a population's perspective. In the past, the sheer number of opinions on social media have made it hard to collect and analyze data. By using machine learning models, we can more effortlessly predict the sentiment of mass tweets. The models tested included simple Naive Bayes and Linear SVM classifiers to act as a baseline and low-computation estimations, and an LSTM classifier. The Linear SVM model yielded the best results of the linear/Naive Bayes classifiers, with a 54% weighted accuracy. The more complex LSTM model achieved an accuracy of 64%.
+
+Dataset: https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
+*Eventually replacing dataset with Twitter API integration, directly pulling tweets for specific keywords/areas
